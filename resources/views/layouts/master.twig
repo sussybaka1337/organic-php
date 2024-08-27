@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+        <!-- Fonts -->
+        <!-- CSS files -->
+        <link rel="stylesheet" href="assets/css/font-awesome.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <!-- CSS files -->
+        <!-- JavaScript files -->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- JavaScript files -->
+    </head>
+    <body>
+        <div id="app">
+            {% block app %}{% endblock %}
+        </div>
+    </body>
+</html>
